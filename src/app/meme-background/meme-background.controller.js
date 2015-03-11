@@ -1,7 +1,9 @@
 'use strict';
 
 angular.module('meme-background', [])
-  .controller('MemeBackgroundCtrl', function ($scope) {
+  .controller('MemeBackgroundCtrl', function ($scope, $rootScope) {
+		$rootScope.pageTitle = 'Background';
+
     $scope.awesomeThings = [
       {
         'title': 'AngularJS',
