@@ -3,6 +3,7 @@
 angular.module('meme-background', [])
   .controller('MemeBackgroundCtrl', function ($scope, $rootScope) {
 		$rootScope.pageTitle = 'Background';
+		$rootScope.instruction = 'Choose a background';
 
     $scope.awesomeThings = [
       {
