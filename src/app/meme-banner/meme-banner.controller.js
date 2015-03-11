@@ -1,7 +1,9 @@
 'use strict';
 
 angular.module('meme-banner', [])
-  .controller('MemeBannerCtrl', function ($scope) {
+  .controller('MemeBannerCtrl', function ($scope, $rootScope) {
+		$rootScope.pageTitle = 'Banner';
+
     $scope.awesomeThings = [
       {
         'title': 'AngularJS',

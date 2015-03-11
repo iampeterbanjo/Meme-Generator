@@ -1,7 +1,9 @@
 'use strict';
 
 angular.module('meme-image', [])
-  .controller('MemeImageCtrl', function ($scope) {
+  .controller('MemeImageCtrl', function ($scope, $rootScope) {
+		$rootScope.pageTitle = 'Image';
+
     $scope.awesomeThings = [
       {
         'title': 'AngularJS',
