@@ -40,7 +40,5 @@ angular.module('meme', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngRe
 		$urlRouterProvider.otherwise('/meme/background');
 
 		// theming
-		$mdThemingProvider.theme('default')
-			.primaryPalette('pink')
-			.accentPalette('orange');
+		$mdThemingProvider.theme('green');
 	});
